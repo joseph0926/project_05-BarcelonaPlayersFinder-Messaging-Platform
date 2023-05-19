@@ -69,3 +69,6 @@
 | [김영훈](https://github.com/joseph0926)                                                                           | [김영훈](https://github.com/joseph0926)                                                                           |
 
 ## 실행 방법
+```shell
+cd barcelona / (npm install) / npm run serve
+```
