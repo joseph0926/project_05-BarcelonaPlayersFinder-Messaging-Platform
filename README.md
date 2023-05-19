@@ -14,6 +14,7 @@
 
 ### 데이터 모델
 
+![Group 1](https://github.com/joseph0926/project_05-BarcelonaPlayersFinder-Messaging-Platform/assets/100750188/a7546f2d-b63c-49d7-b166-acf5c5631926)
 
 
 ## 주요 기능
