@@ -10,7 +10,31 @@
 또한, Vue.js에 대한 역량을 향상시키기 위해 이 프로젝트를 진행하게 되었습니다.
 
 ### 페이지 구성
-
+```
+- src
+  - components
+    - PlayerList
+      - PlayerList.vue
+    - PlayerDetail
+      - PlayerDetail.vue
+    - PlayerRegistration
+      - PlayerRegistration.vue
+    - ContactPlayer
+      - ContactPlayer.vue
+    - RequestsReceived
+      - RequestsReceived.vue
+  - views
+    - Home.vue
+    - NotFound.vue
+  - router
+    - index.js
+  - store
+    - index.js
+    - modules
+      - player.js
+  - App.vue
+  - main.js
+```
 
 ### 데이터 모델
 
