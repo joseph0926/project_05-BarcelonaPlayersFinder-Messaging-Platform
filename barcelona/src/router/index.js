@@ -1,13 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import {
-  ContactPlayer,
-  NotFound,
-  PlayerDetail,
-  PlayerRegistraion,
-  PlayersList,
-  RequestRecevied,
-} from "@/pages/index.js";
+import { ContactPlayer, NotFound, PlayerDetail, PlayerRegistraion, PlayersList, RequestRecevied } from "@/pages/index.js";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -17,6 +10,7 @@ const router = createRouter({
     {
       path: "/player/:playerId",
       component: PlayerDetail,
+      props: true,
       children: [{ path: "contact", component: ContactPlayer }],
     },
     { path: "/register", component: PlayerRegistraion },
