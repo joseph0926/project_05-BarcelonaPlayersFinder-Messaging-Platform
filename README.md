@@ -11,29 +11,29 @@
 
 ### 페이지 구성
 ```
-- src
-  - components
-    - PlayerList
-      - PlayerList.vue
-    - PlayerDetail
-      - PlayerDetail.vue
-    - PlayerRegistration
-      - PlayerRegistration.vue
-    - ContactPlayer
-      - ContactPlayer.vue
-    - RequestsReceived
-      - RequestsReceived.vue
-  - views
-    - Home.vue
-    - NotFound.vue
-  - router
-    - index.js
-  - store
-    - index.js
-    - modules
-      - player.js
-  - App.vue
-  - main.js
+├── src
+│   ├── components
+│   │   ├── PlayerList
+│   │   │   └── PlayerList.vue
+│   │   ├── PlayerDetail
+│   │   │   └── PlayerDetail.vue
+│   │   ├── PlayerRegistration
+│   │   │   └── PlayerRegistration.vue
+│   │   ├── ContactPlayer
+│   │   │   └── ContactPlayer.vue
+│   │   └── RequestsReceived
+│   │       └── RequestsReceived.vue
+│   ├── views
+│   │   ├── Home.vue
+│   │   └── NotFound.vue
+│   ├── router
+│   │   └── index.js
+│   ├── store
+│   │   ├── index.js
+│   │   └── modules
+│   │       └── player.js
+│   ├── App.vue
+│   └── main.js
 ```
 
 ### 데이터 모델
